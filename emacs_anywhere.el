@@ -56,6 +56,14 @@ Functions are run with args APP-NAME WINDOW-TITLE X Y WIDTH HEIGHT")
                       ea-x
                       ea-y
                       ea-width
-                      ea-height))
+                      ea-height)
+
+  ;; start editing right away
+  (evil-insert 1)
+
+  ;; let me finish with ",,"
+  (use-local-map (copy-keymap org-mode-map))
+  (define-key evil-normal-state-map (kbd ",,") 'delete-frame)
+  )
 
 (ea--init)
