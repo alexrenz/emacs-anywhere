@@ -34,7 +34,7 @@
 # Install
 ## OS X
 ``` 
-curl -fsSL https://raw.github.com/zachcurry/emacs-anywhere/master/install | bash
+curl -fsSL https://raw.github.com/alexrenz/emacs-anywhere/master/install | bash
 ```
 Open **System Preferences** and navigate to **keyboard > shortcuts > Services**.
 Check the box beside "Emacs Anywhere", click "Add Shortcut" and key a shortcut.
@@ -53,7 +53,7 @@ sudo apt-get install <dependency>
 
 ### Install
 ``` 
-curl -fsSL https://raw.github.com/zachcurry/emacs-anywhere/master/install | bash
+curl -fsSL https://raw.github.com/alexrenz/emacs-anywhere/master/install | bash
 ```
 Create a keyboard shortcut to run `~/.emacs_anywhere/bin/run`.
 
